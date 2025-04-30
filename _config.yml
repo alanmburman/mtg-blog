@@ -10,3 +10,16 @@ remote_theme: just-the-docs/just-the-docs
 # Navigation settings
 nav_order: 1
 show_toc: true
+
+# Appearance settings
+color_scheme: dark # Options: light, dark, auto (if supported by your theme)
+
+# Search settings
+search_enabled: true # Enables the search bar
+
+# Footer settings
+footer_content: "© 2025 Alan M. Burman. All rights reserved."
+
+# Custom CSS
+# Uncomment the line below if you add a custom CSS file
+# css: assets/style.css
