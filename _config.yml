@@ -1,0 +1,12 @@
+# Site settings
+title: "MTG Blog"
+description: "A blog about Magic: The Gathering deck techs, politics, and breaking news."
+baseurl: "" # Leave this empty for GitHub Pages
+url: "https://alanmburman.github.io/mtg-blog" # Update with your GitHub Pages URL
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+
+# Navigation settings
+nav_order: 1
+show_toc: true
