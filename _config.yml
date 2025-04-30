@@ -1,7 +1,7 @@
 # Site settings
 title: "MTG Blog"
 description: "A blog about Magic: The Gathering deck techs, politics, and breaking news."
-baseurl: "" # Leave this empty for GitHub Pages
+baseurl: "" # Leave this empty for GitHub Pages if hosted at the repo root
 url: "https://alanmburman.github.io/mtg-blog" # Update with your GitHub Pages URL
 
 # Build settings
@@ -9,17 +9,38 @@ remote_theme: just-the-docs/just-the-docs
 
 # Navigation settings
 nav_order: 1
-show_toc: true
+show_toc: true # Show table of contents if your theme supports it
 
 # Appearance settings
-color_scheme: dark # Options: light, dark, auto (if supported by your theme)
+color_scheme: auto # Options: light, dark, auto (auto adapts to user preferences)
 
 # Search settings
 search_enabled: true # Enables the search bar
+search_placeholder: "Search MTG Blog..." # Custom placeholder text for search bar
+search_auto_focus: false # Prevents search bar from stealing focus and causing layout issues
 
 # Footer settings
-footer_content: "© 2025 Alan M. Burman. All rights reserved."
+footer_content: |
+  © 2025 Alan M. Burman. All rights reserved.
+  [Privacy Policy](/privacy-policy) | [Terms of Service](/terms-of-service)
 
 # Custom CSS
 # Uncomment the line below if you add a custom CSS file
-# css: assets/style.css
+css: assets/style.css
+
+# Social media links
+social_links:
+  - title: "Twitter"
+    url: "https://twitter.com/yourhandle"
+  - title: "GitHub"
+    url: "https://github.com/alanmburman"
+
+# Additional theme configurations
+just_the_docs:
+  search:
+    layout: "compact" # Configure search bar layout to avoid large icons
+  logo: "/assets/images/logo.png" # Add a custom logo if desired
+  favicon: "/assets/images/favicon.ico" # Add a favicon for branding
+
+# Debugging settings (optional)
+safe: true # Ensures the build does not fail due to unsupported plugins
